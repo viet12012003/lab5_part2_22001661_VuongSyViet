@@ -1,0 +1,30 @@
+
+Text: can you remind me to not call my mom
+True Intent: reminder_create
+--------------------------------------------------
+TF-IDF + Logistic Regression: calendar_set (Confidence: 0.63)
+Word2Vec + Dense: calendar_set (Confidence: 0.45)
+LSTM (Pre-trained): email_sendemail (Confidence: 0.31)
+LSTM (Scratch): social_query (Confidence: 0.11)
+
+==================================================
+
+Text: is it going to be sunny or rainy tomorrow
+True Intent: weather_query
+--------------------------------------------------
+TF-IDF + Logistic Regression: weather_query (Confidence: 0.23)
+Word2Vec + Dense: weather_query (Confidence: 0.68)
+LSTM (Pre-trained): weather_query (Confidence: 0.29)
+LSTM (Scratch): play_audiobook (Confidence: 0.13)
+
+==================================================
+
+Text: find a flight from new york to london but not through paris
+True Intent: flight_search
+--------------------------------------------------
+TF-IDF + Logistic Regression: datetime_convert (Confidence: 0.14)
+Word2Vec + Dense: transport_query (Confidence: 0.56)
+LSTM (Pre-trained): transport_ticket (Confidence: 0.37)
+LSTM (Scratch): play_audiobook (Confidence: 0.12)
+
+==================================================

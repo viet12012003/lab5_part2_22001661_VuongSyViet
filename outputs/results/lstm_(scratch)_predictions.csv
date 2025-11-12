@@ -1,0 +1,1077 @@
+text,true_label,predicted_label,confidence
+tell time alarm set,alarm_query,alarm_set,0.23091452
+list alarm,alarm_query,alarm_query,0.13814509
+alarm setting,alarm_query,general_commandstop,0.10490993
+alarm set today,alarm_query,alarm_set,0.1988514
+please see see alarm set sunday morning,alarm_query,alarm_set,0.2366298
+tell next alarm,alarm_query,alarm_set,0.20891368
+please tell alarm,alarm_query,alarm_set,0.20960566
+please list alarm,alarm_query,alarm_set,0.19734412
+alarm set right,alarm_query,alarm_set,0.2028447
+check whether set alarm tomorrow morning,alarm_query,alarm_set,0.2364244
+tell alarm,alarm_query,alarm_query,0.15228792
+alarm set,alarm_query,alarm_query,0.13196012
+alarm four,alarm_query,general_commandstop,0.09678225
+show alarm,alarm_query,alarm_query,0.15002127
+alarm time set,alarm_query,alarm_set,0.20823418
+tell alarm set,alarm_query,alarm_set,0.21480072
+please let know morning alarm time kept weekend,alarm_query,alarm_set,0.23672238
+time alarm set tomorrow,alarm_query,alarm_set,0.23117672
+may know alarm set,alarm_query,alarm_set,0.231007
+disable alarm set nine thirty,alarm_remove,alarm_set,0.23558535
+delete scheduled alarm,alarm_remove,alarm_set,0.20852637
+turn first alarm,alarm_remove,alarm_set,0.20923133
+please cancel alarm tomorrow,alarm_remove,alarm_set,0.23142633
+please delete wednesday evening alarm,alarm_remove,alarm_set,0.23432036
+please delete morning alarm,alarm_remove,alarm_set,0.22959201
+remove alarm,alarm_remove,alarm_query,0.15213004
+cancel alarm,alarm_remove,alarm_query,0.1552892
+delete alarm set,alarm_remove,alarm_set,0.21343677
+could please remove set alarm eight nine,alarm_remove,alarm_set,0.23664321
+please turn alarm,alarm_remove,alarm_set,0.20988992
+set alarm nine,alarm_set,alarm_set,0.2122975
+change alarm start midnight,alarm_set,alarm_set,0.23071882
+alarm ten,alarm_set,alarm_query,0.09576857
+set alarm tomorrow,alarm_set,alarm_set,0.21150608
+set alarm twelve,alarm_set,alarm_set,0.21226838
+set timer five seven day week,alarm_set,play_music,0.23133194
+need set alarm next friday noon,alarm_set,alarm_set,0.2363365
+please sound alarm three hour scheduled event,alarm_set,general_affirm,0.1821933
+set alarm seven,alarm_set,alarm_set,0.2132248
+alert ten please,alarm_set,general_negate,0.12395742
+set alarm seven work,alarm_set,alarm_set,0.2312279
+wake time,alarm_set,general_commandstop,0.13262331
+change alarm mountain time,alarm_set,alarm_set,0.1513903
+set day alarm ten time meal,alarm_set,alarm_set,0.14848466
+please set alarm clock next meeting team three next friday,alarm_set,alarm_set,0.23680814
+set alarm six,alarm_set,alarm_set,0.21318899
+set alarm eight hundred evening,alarm_set,alarm_set,0.23503497
+set alarm six thirty,alarm_set,alarm_set,0.23136804
+make wake alarm eight forty five,alarm_set,alarm_set,0.23633416
+could please lower tone,audio_volume_down,general_praise,0.17540203
+please talk softer,audio_volume_down,general_negate,0.13896349
+lower speak volume,audio_volume_down,general_negate,0.1308003
+loud decrease volume,audio_volume_down,general_negate,0.13960916
+turn volume,audio_volume_down,general_explain,0.09588204
+reduce volume,audio_volume_down,general_explain,0.105488636
+lower volume twenty,audio_volume_down,general_dontcare,0.14839454
+lower volume fifty percent,audio_volume_down,general_praise,0.17221175
+quiet please,audio_volume_mute,general_commandstop,0.08792119
+mute sound speaker,audio_volume_mute,general_negate,0.14175473
+please mute five minute,audio_volume_mute,general_praise,0.17428778
+mute speaker minute need make call,audio_volume_mute,alarm_set,0.23393068
+mute speaker,audio_volume_mute,general_negate,0.097239316
+silence volume speaker,audio_volume_mute,general_dontcare,0.12935176
+turn medium volume,audio_volume_mute,general_dontcare,0.15259305
+need quiet tomorrow,audio_volume_mute,general_affirm,0.19316511
+sleep,audio_volume_mute,general_quirky,0.027557312
+notification five minute,audio_volume_mute,calendar_remove,0.11121871
+turn sound,audio_volume_mute,general_explain,0.08760363
+mute music,audio_volume_mute,general_explain,0.12157798
+pause ten second,audio_volume_mute,general_negate,0.1298373
+set mute twenty minute,audio_volume_mute,general_praise,0.17326543
+need mute speaker,audio_volume_mute,general_negate,0.15244813
+could speak little softly,audio_volume_up,general_dontcare,0.15127677
+turn,audio_volume_up,general_quirky,0.026635703
+increase volume little,audio_volume_up,general_dontcare,0.14085723
+olly turn volume,audio_volume_up,general_negate,0.14370435
+raise volume level seven music player,audio_volume_up,general_repeat,0.15564004
+want speaker turned high,audio_volume_up,general_dontcare,0.15346164
+rise volume,audio_volume_up,general_explain,0.120598115
+please increase volume music hip dont lie,audio_volume_up,music_query,0.1776804
+raise volume music player fifty percent,audio_volume_up,general_dontcare,0.13052061
+speak loud,audio_volume_up,general_explain,0.09023503
+increase volume please,audio_volume_up,general_dontcare,0.12798603
+make bit louder,audio_volume_up,general_dontcare,0.16100542
+increase volume fifty percent,audio_volume_up,general_praise,0.14348887
+school dance junction marked,calendar_query,datetime_query,0.10734425
+schedule tomorrow,calendar_query,email_querycontact,0.058963235
+available five sunday,calendar_query,qa_factoid,0.11396937
+notification social medium,calendar_query,social_post,0.08606774
+scheduled next week,calendar_query,play_audiobook,0.11383411
+tell meeting week,calendar_query,calendar_remove,0.11956687
+opening schedule tomorrow,calendar_query,calendar_remove,0.11394553
+need pick kid anything today,calendar_query,lists_query,0.06461759
+anything need aware,calendar_query,alarm_query,0.076918006
+undone task,calendar_query,general_explain,0.10006132
+left today,calendar_query,general_quirky,0.06857622
+list upcoming event,calendar_query,calendar_remove,0.11231656
+one thousand two hundred thirty already meeting ten min,calendar_query,recommendation_locations,0.11590208
+meeting scheduled tomorrow,calendar_query,calendar_remove,0.110553354
+birthday,calendar_query,general_quirky,0.027759435
+next appointment contact reschedule,calendar_query,calendar_remove,0.12449124
+plan tonight,calendar_query,calendar_query,0.05594794
+day week birthday year,calendar_query,qa_factoid,0.10300787
+schedule june fourteenth two thousand seventeen,calendar_query,calendar_remove,0.1087386
+remove next event calendar,calendar_remove,recommendation_events,0.12660204
+format calendar,calendar_remove,recommendation_events,0.057562437
+remove board meeting reschedule next wednesday,calendar_remove,recommendation_events,0.12627396
+delete event mine,calendar_remove,calendar_remove,0.120236896
+cancel event valentine day calendar,calendar_remove,recommendation_events,0.12373442
+remove meeting today one,calendar_remove,calendar_remove,0.11774907
+longer need see doctor event removed,calendar_remove,calendar_remove,0.12666968
+please remove march nineteenth scheduled event,calendar_remove,calendar_remove,0.13441502
+make sure event calendar,calendar_remove,recommendation_events,0.12465522
+remove event calendar,calendar_remove,recommendation_events,0.11764183
+delete meeting event march nineteen one,calendar_remove,recommendation_events,0.121274516
+remove upcoming task,calendar_remove,play_game,0.121002354
+remove emmas birthday event,calendar_remove,recommendation_events,0.12561758
+calendar delete golf event current month,calendar_remove,transport_traffic,0.12527844
+erase calendar event,calendar_remove,recommendation_events,0.1216365
+take lunch meeting calendar,calendar_remove,calendar_remove,0.11480815
+delete event tomorrow,calendar_remove,calendar_remove,0.11473119
+delete party june first calendar,calendar_remove,recommendation_events,0.12591489
+please clear calendar event,calendar_remove,recommendation_events,0.12636852
+set reminder tomorrow evening,calendar_set,calendar_remove,0.12597778
+notify event going take place,calendar_set,recommendation_locations,0.10968935
+add jim jerry event,calendar_set,recommendation_events,0.12627085
+make repeating reminder yoga practice every day noon,calendar_set,recommendation_events,0.12692393
+meeting sean four wednesday remind,calendar_set,recommendation_events,0.12375991
+create event gym day monday set repeat,calendar_set,play_music,0.23804481
+blot phone call planned morning twenty three march,calendar_set,calendar_remove,0.12678975
+remind meeting tomorrow,calendar_set,calendar_remove,0.1160798
+repeat reminder schedule christmas,calendar_set,calendar_remove,0.1269554
+remind call grandma sunday,calendar_set,recommendation_events,0.12246717
+next week uncle birthday,calendar_set,recommendation_events,0.1196547
+add running calendar thursday,calendar_set,recommendation_events,0.12571554
+would like attend church every sunday eleven,calendar_set,recommendation_events,0.1215914
+see john available meeting monday,calendar_set,calendar_remove,0.13391115
+remind meeting,calendar_set,recommendation_events,0.068565324
+set alarm calendar event five min,calendar_set,play_music,0.22023323
+activate one week notification anniversary please,calendar_set,recommendation_locations,0.10894982
+could please schedule meeting person,calendar_set,recommendation_events,0.12402382
+meeting march twenty first ten,calendar_set,play_audiobook,0.12942636
+help make brownie,cooking_recipe,play_music,0.13367833
+crabmeat recipe,cooking_recipe,play_game,0.08158199
+spice,cooking_recipe,general_quirky,0.027626216
+tell vegetable cooked,cooking_recipe,qa_factoid,0.1115982
+learn cut potato correctly,cooking_recipe,qa_factoid,0.10693436
+cook meal,cooking_recipe,datetime_query,0.08356949
+get recipe tuna,cooking_recipe,datetime_query,0.10852598
+please cook hamburger,cooking_recipe,qa_factoid,0.1075448
+cook yellow rice,cooking_recipe,datetime_query,0.110870205
+need know make stuffed pepper,cooking_recipe,play_radio,0.10201119
+cook pasta,cooking_recipe,datetime_query,0.0830137
+look different recipe,cooking_recipe,play_music,0.16112345
+ingredient used instead saffron,cooking_recipe,play_radio,0.1022872
+find apple pie recipe,cooking_recipe,play_game,0.12076353
+enough ingredient refrigerator,cooking_recipe,play_game,0.116211444
+search favorite meal,cooking_recipe,datetime_query,0.10913415
+tell preparation method chicken sixty five,cooking_recipe,play_radio,0.109052844
+would like able find recipe,cooking_recipe,cooking_recipe,0.1023468
+people use avocado seed,cooking_recipe,play_audiobook,0.11970212
+eight east coast time sacramento california,datetime_convert,play_radio,0.10888659
+four missouri time london,datetime_convert,datetime_query,0.105753094
+please change time zone,datetime_convert,datetime_query,0.103463806
+time zone please change current,datetime_convert,play_audiobook,0.11819108
+please change time zone canada,datetime_convert,play_radio,0.10990554
+time locally nine bangalore india time,datetime_convert,play_radio,0.105789594
+ten eastern standard time time pacific standard time,datetime_convert,cooking_recipe,0.100153856
+change mountain standard pacific,datetime_convert,datetime_query,0.10619005
+please tell date,datetime_query,play_game,0.10975833
+date today,datetime_query,datetime_query,0.07397945
+today,datetime_query,general_quirky,0.027512511
+time geneva,datetime_query,datetime_query,0.0718833
+let know time,datetime_query,play_game,0.11813622
+new york time please,datetime_query,play_game,0.16193053
+time difference dakar,datetime_query,qa_factoid,0.10882456
+let know time india,datetime_query,datetime_query,0.10637552
+tell time time zone,datetime_query,datetime_query,0.10495105
+date next monday,datetime_query,qa_factoid,0.112059176
+tell time dallas texas,datetime_query,datetime_query,0.10554147
+time time zone,datetime_query,datetime_query,0.10989691
+hey whats current time austin,datetime_query,calendar_remove,0.12743054
+hey time,datetime_query,general_quirky,0.06799577
+could tell time,datetime_query,play_music,0.17949668
+day week next holiday fall,datetime_query,play_radio,0.10888391
+august fifteenth day week,datetime_query,qa_factoid,0.09993356
+tell date today,datetime_query,qa_factoid,0.109259784
+hey whats today date,datetime_query,play_audiobook,0.15131979
+add dans email,email_addcontact,email_query,0.08182411
+add contact mail,email_addcontact,qa_stock,0.08146494
+enter atdfdyahoo dot com contact list,email_addcontact,lists_query,0.03338742
+get apahelpyahoo dot com contact,email_addcontact,social_post,0.097792484
+save email contact,email_addcontact,qa_stock,0.08146845
+please add johndoeyahoocom contact list,email_addcontact,iot_hue_lightchange,0.119092524
+add new email,email_addcontact,email_query,0.08189343
+add work email address,email_addcontact,qa_stock,0.08277759
+new email name,email_query,social_post,0.08818405
+give recent email,email_query,email_query,0.081707485
+refresh email,email_query,qa_stock,0.072004475
+need know email contact pertaining subject,email_query,social_post,0.0871022
+open email,email_query,qa_stock,0.072560966
+sent email past week,email_query,email_sendemail,0.10546438
+check email unread email mom,email_query,email_sendemail,0.10965448
+email come last five hour,email_query,email_sendemail,0.10813567
+report new email inbox please,email_query,social_post,0.10262865
+subject sender last email,email_query,social_post,0.08365257
+tell susan last email,email_query,qa_stock,0.08232602
+show email received recently,email_query,social_post,0.095275894
+email jessica,email_query,social_post,0.067953244
+recent unread email,email_query,email_query,0.08172578
+new email ryan,email_query,social_post,0.08998421
+carlos linux upgrade email,email_query,qa_stock,0.08255685
+mail,email_query,general_quirky,0.027250366
+gotten mail recently,email_query,social_query,0.100406386
+check email,email_query,email_query,0.07275502
+sarah number,email_querycontact,email_querycontact,0.071166895
+give detail john,email_querycontact,play_audiobook,0.12161073
+responded phone call,email_querycontact,email_querycontact,0.11134701
+jeffs number,email_querycontact,email_querycontact,0.06127229
+many contact named john,email_querycontact,calendar_remove,0.13176756
+tell contact detail brother,email_querycontact,email_querycontact,0.11298167
+show mobile number john,email_querycontact,recommendation_events,0.12476726
+contact mona email well,email_querycontact,email_sendemail,0.10868733
+show number contact email rehan,email_querycontact,qa_stock,0.08232607
+look residential address team leader,email_querycontact,recommendation_events,0.123715036
+wife email,email_querycontact,qa_stock,0.07266237
+select contact,email_querycontact,calendar_query,0.062483016
+sister cellphone number,email_querycontact,calendar_remove,0.11664399
+old mary,email_querycontact,calendar_query,0.059775326
+mom text,email_querycontact,email_querycontact,0.062922366
+please let know david travelling,email_querycontact,play_radio,0.10574891
+hayden still living turnpike lane,email_querycontact,recommendation_events,0.12061873
+add rebecca green list favorite contact,email_querycontact,general_confirm,0.12341732
+jills home phone number,email_querycontact,calendar_remove,0.12459061
+send mail talk,email_sendemail,social_post,0.1024533
+pull kates email write let know,email_sendemail,social_post,0.0825407
+please reply bos recent email say ppt ready one hour maximum,email_sendemail,email_sendemail,0.11212295
+reply email charles thank right,email_sendemail,email_sendemail,0.10818309
+send new email jana dot litt gmail dot com,email_sendemail,email_sendemail,0.112010166
+hey please reply last pawels email,email_sendemail,email_sendemail,0.11096406
+send email new email address,email_sendemail,email_sendemail,0.11087263
+send email friend say birthday wish,email_sendemail,email_sendemail,0.110757194
+send email mom starting subject vacation,email_sendemail,email_sendemail,0.11077521
+jjnztyahoo dot com,email_sendemail,qa_stock,0.08093602
+email happy new year john,email_sendemail,email_sendemail,0.108611904
+tell joes email come house moment alone,email_sendemail,email_sendemail,0.10797068
+email send message,email_sendemail,email_sendemail,0.1066464
+email john smith,email_sendemail,social_post,0.10077887
+start new email george brown,email_sendemail,qa_stock,0.08329933
+send replay email,email_sendemail,email_sendemail,0.10569308
+send reply joe,email_sendemail,social_post,0.09776486
+email tom date time tomorrow meeting,email_sendemail,email_sendemail,0.11055741
+add mail subject content,email_sendemail,social_post,0.08271961
+fantastic response,general_affirm,general_commandstop,0.08654945
+yeap youve gotten instruction perfectly,general_affirm,general_affirm,0.20742913
+yeah wonderful response,general_affirm,general_affirm,0.20917687
+yeah exact response command,general_affirm,general_affirm,0.20312275
+yeah perfect response command,general_affirm,general_affirm,0.18161662
+yeah excellent,general_affirm,general_commandstop,0.14073789
+yeah exactly,general_affirm,general_commandstop,0.14772652
+perfect response command,general_affirm,general_affirm,0.16322424
+yes got instruction perfectly,general_affirm,general_affirm,0.22317317
+yeah understood command correcly,general_affirm,general_affirm,0.22978508
+yeah wonderful response command,general_affirm,general_affirm,0.20515862
+strongly agree,general_affirm,general_explain,0.08753762
+yeap confirmed,general_affirm,general_commandstop,0.15684238
+got command right,general_affirm,general_affirm,0.19172479
+yeah strongly agree,general_affirm,general_affirm,0.21226068
+yeah fantastic,general_affirm,general_commandstop,0.14285336
+yes youve understood instruction exactly,general_affirm,general_affirm,0.1914085
+yeap understanding confirmed,general_affirm,general_affirm,0.21700892
+yeah correct,general_affirm,general_commandstop,0.13397548
+would like stop,general_commandstop,general_affirm,0.2064577
+please shut,general_commandstop,general_commandstop,0.15286559
+olly thats enough stop,general_commandstop,general_affirm,0.20841298
+olly stop,general_commandstop,general_commandstop,0.14499536
+olly please would stop,general_commandstop,general_affirm,0.18860398
+please shut,general_commandstop,general_commandstop,0.15286559
+like cancel,general_commandstop,general_commandstop,0.10810726
+stop please,general_commandstop,general_commandstop,0.100539625
+would cancel please,general_commandstop,general_affirm,0.16185784
+olly shut,general_commandstop,general_commandstop,0.15977529
+olly enough stop,general_commandstop,general_affirm,0.21205013
+olly cancel please,general_commandstop,general_affirm,0.18381162
+stop,general_commandstop,lists_query,0.027309872
+thats cancel,general_commandstop,general_commandstop,0.13546388
+olly shut please,general_commandstop,general_affirm,0.21480566
+olly stop,general_commandstop,general_commandstop,0.14499536
+cancel,general_commandstop,lists_query,0.027046418
+olly please shut,general_commandstop,general_affirm,0.2152329
+olly want cancel,general_commandstop,general_affirm,0.20833015
+would confirm question,general_confirm,general_confirm,0.10203169
+could check last question,general_confirm,general_confirm,0.11748747
+check confirm command please,general_confirm,general_confirm,0.13280907
+please check,general_confirm,lists_query,0.0825239
+could check confirm last said please,general_confirm,general_confirm,0.12247708
+please check,general_confirm,lists_query,0.0825239
+please confirm question,general_confirm,lists_remove,0.09978385
+check detail please,general_confirm,general_confirm,0.08365544
+confirm,general_confirm,lists_query,0.033652756
+please confirm,general_confirm,lists_query,0.08955236
+check confirm question please,general_confirm,general_confirm,0.12041937
+like check question please,general_confirm,general_confirm,0.12921125
+get said correctly,general_confirm,general_confirm,0.093383476
+get said correctly,general_confirm,general_confirm,0.093383476
+like check confirm said please,general_confirm,general_confirm,0.120784745
+would please confirm instruction,general_confirm,general_confirm,0.11947823
+check confirm last question please,general_confirm,general_confirm,0.12395673
+check confirm instruction please,general_confirm,general_confirm,0.12373692
+check last thing said please,general_confirm,general_confirm,0.13741122
+would mind olly,general_dontcare,general_dontcare,0.15164879
+wouldnt mind one,general_dontcare,general_dontcare,0.15210772
+matter olly,general_dontcare,general_explain,0.11660588
+dont really bother olly,general_dontcare,general_dontcare,0.15693463
+wouldnt really know olly,general_dontcare,general_dontcare,0.15925072
+idea olly,general_dontcare,general_explain,0.11765118
+mind whatever,general_dontcare,general_explain,0.10902591
+one good olly,general_dontcare,general_dontcare,0.15965211
+matter olly,general_dontcare,general_explain,0.11660588
+would mind select one,general_dontcare,general_dontcare,0.14609315
+really mind whatever,general_dontcare,general_dontcare,0.15081783
+unimportant,general_dontcare,general_quirky,0.027885485
+would mind select one olly,general_dontcare,general_dontcare,0.14470693
+matter,general_dontcare,general_repeat,0.027819963
+one good,general_dontcare,general_explain,0.06975283
+unimportant olly,general_dontcare,general_explain,0.11932013
+wouldnt really mind whatever,general_dontcare,general_dontcare,0.15404202
+idea regarding select olly,general_dontcare,general_dontcare,0.16135627
+matter olly,general_dontcare,general_explain,0.11660588
+would clarify answer please,general_explain,general_dontcare,0.15164848
+understand,general_explain,general_quirky,0.027429953
+word clear,general_explain,general_explain,0.10606374
+explain please,general_explain,general_explain,0.10807339
+unclear said,general_explain,general_explain,0.09165582
+please clarify,general_explain,general_explain,0.11254016
+rephrase response please,general_explain,general_negate,0.15479563
+clarify answer,general_explain,general_explain,0.11575808
+elaborate,general_explain,general_repeat,0.027692854
+couldnt understand said,general_explain,general_dontcare,0.1533045
+clarify youve said please,general_explain,general_dontcare,0.15539603
+didnt get response,general_explain,general_negate,0.15679993
+could please rephrase said,general_explain,general_dontcare,0.1595858
+said clear,general_explain,general_explain,0.08379982
+explain,general_explain,general_repeat,0.027701458
+get,general_explain,general_quirky,0.02701574
+explain answer please,general_explain,general_dontcare,0.13560233
+catch,general_explain,general_quirky,0.027550083
+didnt understand said,general_explain,general_dontcare,0.15576166
+tell random joke,general_joke,alarm_set,0.2087739
+find joke related baseball,general_joke,general_affirm,0.22048095
+need cheered right tell good joke,general_joke,alarm_set,0.23628761
+today joke,general_joke,alarm_query,0.1361669
+joke,general_joke,lists_query,0.034197506
+whats favorite joke,general_joke,alarm_set,0.20214278
+look joke,general_joke,alarm_query,0.1377036
+know joke,general_joke,alarm_query,0.13627045
+want nerd joke,general_joke,alarm_set,0.20994814
+joke,general_joke,lists_query,0.034197506
+joke,general_joke,lists_query,0.034197506
+joke please,general_joke,general_commandstop,0.09399437
+thanks think dont understand correctly,general_negate,general_affirm,0.22247642
+sorry think youve got right,general_negate,general_praise,0.17500913
+didnt say,general_negate,general_explain,0.11357642
+shit right,general_negate,general_explain,0.08799565
+think correct response,general_negate,general_negate,0.16267663
+thanks understood wrongly,general_negate,general_affirm,0.20623048
+wait think thats right answer,general_negate,general_negate,0.12439287
+wasnt right,general_negate,general_repeat,0.054642446
+oops youre correct,general_negate,general_negate,0.16276352
+wait interpret command right,general_negate,general_praise,0.17283008
+done wrong thing,general_negate,general_affirm,0.19098476
+wait correct answer,general_negate,general_dontcare,0.14383483
+thanks think get,general_negate,general_affirm,0.20020571
+looking,general_negate,general_quirky,0.02715611
+uhh incorrect command,general_negate,general_affirm,0.16708577
+think dont get answer right,general_negate,general_affirm,0.18250698
+think task wrong,general_negate,general_negate,0.16173577
+understand searching,general_negate,general_explain,0.10707449
+sorry think correct answer,general_negate,general_praise,0.15632448
+hero thank much olly,general_praise,general_praise,0.14844592
+done correctly thanks olly,general_praise,general_praise,0.17052646
+thats nice one,general_praise,general_dontcare,0.1555504
+rock thank much olly,general_praise,general_dontcare,0.14059645
+fantastic job well,general_praise,general_negate,0.159953
+thats good thanks,general_praise,general_negate,0.16148064
+appreciate answer olly,general_praise,general_negate,0.13676375
+star thank much olly,general_praise,general_praise,0.14901486
+cool appreciate,general_praise,general_explain,0.09266528
+fantastic job youve done well olly,general_praise,general_praise,0.16217674
+great work well olly,general_praise,general_dontcare,0.15795179
+cool thanks olly,general_praise,general_negate,0.14197625
+thank response olly,general_praise,general_negate,0.15942536
+youve done right,general_praise,general_negate,0.1559488
+well done appreciated,general_praise,general_affirm,0.15849344
+excellent work done well,general_praise,general_praise,0.17450757
+awesome job well,general_praise,general_negate,0.1422785
+great one thank much,general_praise,general_praise,0.15627255
+helpful appreciated,general_praise,general_negate,0.08984515
+today lunch longtime sweetheart play nice song mood,general_quirky,play_game,0.15530518
+whats,general_quirky,general_quirky,0.027761068
+data prefers problem object,general_quirky,play_game,0.11274289
+salary,general_quirky,general_quirky,0.027626216
+overall day,general_quirky,datetime_query,0.06612511
+anything need know,general_quirky,lists_query,0.096129544
+mile marker sixty five hanging tree located,general_quirky,play_radio,0.11145095
+tell happens die,general_quirky,qa_factoid,0.11231818
+country,general_quirky,general_quirky,0.027596246
+need spare washing car today,general_quirky,play_audiobook,0.123809665
+brings problem,general_quirky,general_quirky,0.05439228
+explain problem syria becomes stronger america,general_quirky,play_game,0.10939105
+chatbot,general_quirky,general_quirky,0.027626216
+high quality stone,general_quirky,news_query,0.09578138
+please tell,general_quirky,general_repeat,0.058844894
+yesterday,general_quirky,general_quirky,0.027546419
+come across new recipe,general_quirky,play_game,0.10833362
+day,general_quirky,general_quirky,0.02751368
+give product review gamespot nintendo switch,general_quirky,social_query,0.10017717
+let start please,general_repeat,general_dontcare,0.13148245
+please say one time,general_repeat,music_query,0.19334659
+would like hear information spoken,general_repeat,play_music,0.20881552
+would like hear last one spoken,general_repeat,music_query,0.16501516
+like hear last spoke,general_repeat,music_query,0.16184051
+need hear youve said,general_repeat,general_dontcare,0.15491897
+retry please,general_repeat,general_explain,0.092635185
+try said one time please,general_repeat,music_query,0.19252715
+would tell one please,general_repeat,general_repeat,0.16135506
+would tell,general_repeat,general_explain,0.082862996
+could tell last one said please,general_repeat,general_dontcare,0.13235308
+want hear,general_repeat,general_repeat,0.097744405
+want hear,general_repeat,general_repeat,0.097744405
+please could tell,general_repeat,general_repeat,0.1493691
+try please,general_repeat,general_explain,0.10677298
+say one time please,general_repeat,music_query,0.1933235
+speak please,general_repeat,general_explain,0.11122626
+please say,general_repeat,general_explain,0.09799076
+please tell,general_repeat,general_repeat,0.058844894
+please activate vacuum clean living room,iot_cleaning,iot_hue_lightchange,0.12304091
+wake roomba kitchen,iot_cleaning,general_confirm,0.101114854
+please vacuum one hour,iot_cleaning,general_confirm,0.13036875
+activate vacuum,iot_cleaning,lists_query,0.089708716
+clean sofa vacuum cleaner,iot_cleaning,iot_hue_lightchange,0.113801315
+vacuum cleaner clean room,iot_cleaning,iot_hue_lightchange,0.11302257
+hurriedly activates robot vacuum cleaner,iot_cleaning,iot_hue_lightchange,0.1212748
+begin vacuum,iot_cleaning,lists_query,0.0890314
+remove dust vacuum cleaner,iot_cleaning,iot_hue_lightchange,0.11377242
+start vacuum bot,iot_cleaning,lists_remove,0.09753968
+start robot vacuum cleaner ten eleven daily,iot_cleaning,iot_hue_lightchange,0.12275133
+activate vacuum cleaner,iot_cleaning,iot_hue_lightoff,0.099552505
+turn roomba,iot_cleaning,lists_query,0.087940544
+begin vacuum cleaning,iot_cleaning,iot_hue_lightoff,0.10128278
+please turn vacuum cleaner,iot_cleaning,iot_hue_lightchange,0.11373269
+activate robot vacuum cleaner,iot_cleaning,iot_hue_lightchange,0.113867305
+would like coffee,iot_coffee,lists_remove,0.10006277
+please make coffee seven,iot_coffee,iot_hue_lightchange,0.11576464
+make cup coffee,iot_coffee,lists_remove,0.10002717
+start coffee six,iot_coffee,lists_remove,0.100314125
+want coffee,iot_coffee,lists_query,0.090987474
+get latte please,iot_coffee,music_query,0.105823725
+prepare morning coffee,iot_coffee,iot_hue_lightoff,0.10001672
+prepare cup coffee,iot_coffee,lists_remove,0.09943917
+see coffee maker ready filter coffee approximately ten minute,iot_coffee,general_confirm,0.12368474
+like coffee,iot_coffee,lists_query,0.0910555
+please turn coffee pot make coffee,iot_coffee,iot_hue_lightchange,0.12189093
+prepare coffee,iot_coffee,lists_query,0.090843424
+get cup coffee,iot_coffee,lists_remove,0.099256404
+make cup coffee,iot_coffee,lists_remove,0.10002717
+get cup coffee ready,iot_coffee,iot_hue_lightchange,0.113761656
+coffee please,iot_coffee,lists_query,0.07081322
+make capuccino,iot_coffee,general_quirky,0.06305831
+make coffee eight,iot_coffee,lists_remove,0.100015834
+put pot coffee,iot_coffee,iot_hue_lightoff,0.10082551
+please make light natural,iot_hue_lightchange,iot_hue_lightchange,0.10919341
+light fifty percent,iot_hue_lightchange,lists_remove,0.095773414
+change light color house,iot_hue_lightchange,iot_hue_lightchange,0.11235846
+turn light party mode,iot_hue_lightchange,iot_hue_lightchange,0.10874344
+set mood please,iot_hue_lightchange,general_negate,0.12910686
+change light color,iot_hue_lightchange,iot_hue_lightoff,0.109893166
+could change light colour green please,iot_hue_lightchange,iot_hue_lightchange,0.12319349
+make curser adjustable position,iot_hue_lightchange,play_game,0.12306678
+change light color,iot_hue_lightchange,iot_hue_lightoff,0.109893166
+change light color blue,iot_hue_lightchange,iot_hue_lightchange,0.11292327
+alter color light home,iot_hue_lightchange,iot_hue_lightchange,0.11079327
+change light blue,iot_hue_lightchange,iot_hue_lightoff,0.11118533
+change living room light softer color,iot_hue_lightchange,iot_hue_lightchange,0.123215154
+set living room light pink,iot_hue_lightchange,iot_hue_lightchange,0.12095419
+change color light blue,iot_hue_lightchange,iot_hue_lightchange,0.11228455
+let warm glow front room,iot_hue_lightchange,iot_hue_lightoff,0.081793666
+switch light red tone,iot_hue_lightchange,iot_hue_lightchange,0.10858312
+change light color blue please turn kitchen light,iot_hue_lightchange,iot_hue_lightchange,0.1229758
+light colour blue please,iot_hue_lightchange,iot_hue_lightchange,0.11316783
+dim light living room,iot_hue_lightdim,iot_hue_lightchange,0.111507684
+lower light intensity,iot_hue_lightdim,iot_hue_lightoff,0.111689776
+please turn lower light,iot_hue_lightdim,iot_hue_lightchange,0.11262334
+dim light please,iot_hue_lightdim,iot_hue_lightoff,0.10889829
+please turn light,iot_hue_lightdim,iot_hue_lightoff,0.11610708
+lower light,iot_hue_lightdim,iot_hue_lightoff,0.105300516
+lower light bedroom two,iot_hue_lightdim,iot_hue_lightchange,0.11160335
+want room less bright,iot_hue_lightdim,iot_hue_lightoff,0.10853903
+hey olly make light little dimmer,iot_hue_lightdim,iot_hue_lightchange,0.12332758
+light much,iot_hue_lightdim,lists_query,0.084852435
+reduce brightness,iot_hue_lightdim,lists_query,0.08996024
+dim overhead light tad,iot_hue_lightdim,iot_hue_lightchange,0.10704595
+switch main light,iot_hue_lightoff,iot_hue_lightoff,0.119820274
+light right side,iot_hue_lightoff,iot_coffee,0.08553494
+turn light bathroom,iot_hue_lightoff,iot_hue_lightoff,0.12155359
+bedroom light,iot_hue_lightoff,iot_hue_lightoff,0.10670215
+turn light bathroom,iot_hue_lightoff,iot_hue_lightoff,0.12155359
+please turn light kitchen,iot_hue_lightoff,iot_hue_lightchange,0.10893463
+turn room light,iot_hue_lightoff,iot_hue_lightoff,0.11446501
+power current,iot_hue_lightoff,general_quirky,0.06561505
+turn light kitchen,iot_hue_lightoff,iot_hue_lightoff,0.117804065
+main power,iot_hue_lightoff,email_querycontact,0.051436
+turn upstairs bathroom light,iot_hue_lightoff,iot_hue_lightchange,0.10739659
+please turn patio light,iot_hue_lightoff,iot_hue_lightchange,0.109943315
+turn light please,iot_hue_lightoff,iot_hue_lightoff,0.11122671
+make sure kitchen light,iot_hue_lightoff,iot_hue_lightchange,0.11151368
+could turn light,iot_hue_lightoff,iot_hue_lightoff,0.11433206
+turn living room light,iot_hue_lightoff,iot_hue_lightchange,0.111423165
+switch light,iot_hue_lightoff,iot_hue_lightoff,0.10746108
+turn desk lamp,iot_hue_lightoff,lists_query,0.055779688
+turn left light,iot_hue_lightoff,iot_hue_lightoff,0.12044796
+please turn light,iot_hue_lighton,iot_hue_lightoff,0.11610708
+please turn light,iot_hue_lighton,iot_hue_lightoff,0.11610708
+dark living room,iot_hue_lighton,iot_hue_lightoff,0.097341195
+light,iot_hue_lightup,lists_query,0.037275128
+lighten light,iot_hue_lightup,iot_hue_lightoff,0.10579791
+need light turned seven,iot_hue_lightup,iot_hue_lightchange,0.108671255
+increase brightness twenty percent,iot_hue_lightup,iot_hue_lightchange,0.11266757
+increase light room,iot_hue_lightup,iot_hue_lightoff,0.10989483
+turn light,iot_hue_lightup,iot_hue_lightoff,0.107058346
+would like light enter,iot_hue_lightup,iot_hue_lightchange,0.10948279
+please arrange make light show brighter,iot_hue_lightup,iot_hue_lightchange,0.12275766
+brighten living room light,iot_hue_lightup,iot_hue_lightchange,0.11133952
+raise light,iot_hue_lightup,iot_hue_lightoff,0.10586373
+raise light,iot_hue_lightup,iot_hue_lightoff,0.10586373
+brighten light seventy percent,iot_hue_lightup,iot_hue_lightoff,0.10364678
+increase,iot_hue_lightup,general_quirky,0.02751596
+brighten light,iot_hue_lightup,iot_hue_lightoff,0.1059299
+deactive socket,iot_wemo_off,lists_query,0.08862876
+turn rice cooker socket,iot_wemo_off,iot_hue_lightoff,0.1186472
+power wemo plug socket,iot_wemo_off,iot_hue_lightchange,0.10676054
+please switch wemo plug socket,iot_wemo_off,iot_hue_lightchange,0.1198355
+shut smart socket,iot_wemo_off,lists_remove,0.1007213
+want use socket anymore,iot_wemo_off,iot_hue_lightoff,0.079792336
+turn smart plug thirty minute,iot_wemo_off,iot_hue_lightchange,0.118151605
+turn wifi leave home save power,iot_wemo_off,recommendation_events,0.12447286
+please turn smart plug socket,iot_wemo_off,iot_hue_lightchange,0.12008482
+turn wemo plug socket connect charger,iot_wemo_on,iot_hue_lightchange,0.119878165
+turn plug,iot_wemo_on,lists_query,0.090686776
+button dashboard,iot_wemo_on,general_quirky,0.059369
+toggle wemo plug socket,iot_wemo_on,iot_hue_lightchange,0.10809052
+wemo,iot_wemo_on,lists_query,0.028127639
+start new smart socket,iot_wemo_on,iot_hue_lightoff,0.11589335
+make wemo,iot_wemo_on,lists_query,0.085358806
+create list monthly grocery bought,lists_createoradd,iot_hue_lightchange,0.11139793
+create list book ordered,lists_createoradd,general_confirm,0.10015121
+create blank list,lists_createoradd,iot_hue_lightoff,0.100787945
+add list,lists_createoradd,lists_query,0.09129624
+add document thing need travel,lists_createoradd,iot_hue_lightoff,0.05825657
+start new list,lists_createoradd,iot_hue_lightoff,0.10216158
+create new list,lists_createoradd,iot_hue_lightoff,0.10352266
+search item,lists_createoradd,lists_query,0.08285499
+create new shopping list,lists_createoradd,iot_hue_lightchange,0.11386594
+start new list,lists_createoradd,iot_hue_lightoff,0.10216158
+need set new list,lists_createoradd,iot_hue_lightchange,0.11440367
+remind buy jean shopping list,lists_createoradd,iot_hue_lightchange,0.120826304
+add cereal shopping list,lists_createoradd,iot_hue_lightchange,0.11451972
+need make list,lists_createoradd,lists_remove,0.099782325
+please add item list,lists_createoradd,iot_hue_lightchange,0.113920696
+make new list dog breed,lists_createoradd,iot_hue_lightchange,0.12088651
+add item,lists_createoradd,lists_query,0.08400184
+make catalogue,lists_createoradd,general_repeat,0.06805599
+put list,lists_createoradd,lists_query,0.09140944
+open google keep,lists_query,qa_factoid,0.10481102
+list type,lists_query,lists_query,0.07530954
+list make today,lists_query,general_confirm,0.090409644
+put toothpaste pick list,lists_query,iot_hue_lightchange,0.11382523
+please show list,lists_query,lists_remove,0.10013634
+grocery list,lists_query,iot_hue_lightoff,0.095116206
+tell list,lists_query,lists_query,0.09131096
+many item list,lists_query,iot_hue_lightoff,0.10122459
+tell name list,lists_query,lists_remove,0.10085908
+show list available number,lists_query,iot_hue_lightchange,0.10608247
+please tell list made,lists_query,iot_hue_lightchange,0.11576229
+viewed list,lists_query,lists_query,0.09122717
+put already walmart list,lists_query,iot_hue_lightoff,0.109251805
+see list today,lists_query,lists_remove,0.09928735
+anything list today,lists_query,lists_remove,0.09937487
+open list,lists_query,iot_hue_lightoff,0.09134266
+playlist,lists_query,general_repeat,0.028664494
+whats list,lists_query,lists_query,0.091069594
+whats schedule today,lists_query,calendar_remove,0.11064207
+remove item list,lists_remove,iot_hue_lightoff,0.10402884
+delete last entry,lists_remove,iot_hue_lightoff,0.09739089
+remove book list,lists_remove,iot_hue_lightoff,0.110901326
+please remove list favorite album,lists_remove,alarm_set,0.2347592
+please delete typed,lists_remove,lists_query,0.076115236
+take bread shopping list,lists_remove,iot_hue_lightchange,0.11273028
+change list,lists_remove,iot_hue_lightoff,0.09243694
+remove list apps started letter,lists_remove,general_confirm,0.12654817
+remove list,lists_remove,iot_hue_lightoff,0.09503911
+get rid pea,lists_remove,play_audiobook,0.08931153
+remove item three list,lists_remove,iot_hue_lightchange,0.11407513
+take grocery buying list,lists_remove,iot_hue_lightchange,0.11297704
+dont enough money buy nintendo switch right please remove amazon wishlist,lists_remove,qa_stock,0.08371502
+want remove apple list,lists_remove,iot_hue_lightchange,0.11371361
+please remove item list,lists_remove,iot_hue_lightchange,0.11364448
+delete item,lists_remove,lists_query,0.08830179
+remove item four,lists_remove,lists_remove,0.09508039
+get rid mike stein contact list,lists_remove,iot_hue_lightchange,0.12141778
+delete grocery list note,lists_remove,iot_hue_lightchange,0.114814274
+save song favorite,music_likeness,music_query,0.18550171
+please rate song five star please,music_likeness,play_music,0.21909945
+like alt rock music,music_likeness,play_music,0.20893705
+add song running list,music_likeness,general_confirm,0.1345923
+like,music_likeness,general_quirky,0.027468424
+add channel pandora,music_likeness,play_game,0.12016482
+song playlist,music_likeness,music_query,0.13069324
+like,music_likeness,general_quirky,0.027468424
+add song favorite playlist,music_likeness,play_music,0.20076473
+favorite singer arijit singh find voice radio,music_likeness,cooking_recipe,0.10439042
+really enjoy song,music_likeness,music_query,0.1825092
+like remember like song,music_likeness,play_music,0.21315168
+favorite music folder,music_likeness,music_query,0.18666658
+please save current song favorite,music_likeness,play_music,0.23025678
+ever want hear rap,music_likeness,play_music,0.22806782
+song playing amazing,music_likeness,play_music,0.19022304
+please thumb song,music_likeness,play_music,0.20378913
+remember song good slow exercise,music_likeness,play_music,0.23105161
+song writer,music_query,music_query,0.13640493
+please give detail zaalima song,music_query,play_music,0.22683999
+give detail elton john,music_query,play_game,0.14786437
+movie song,music_query,music_query,0.14351454
+pop like hot come,music_query,datetime_query,0.10479346
+name singer,music_query,general_repeat,0.10158679
+singing song,music_query,music_query,0.13668339
+want know song phrase stairway heaven,music_query,play_music,0.20569903
+find song,music_query,music_query,0.1390735
+song info,music_query,music_query,0.10125581
+list available favorite music sheeran,music_query,general_dontcare,0.14740248
+,music_query,lists_query,0.024718575
+list playback rahman collection,music_query,play_music,0.18833669
+music,music_query,general_repeat,0.029107304
+music service soul music listen,music_query,play_game,0.101449035
+song listen,music_query,music_query,0.13983098
+locate gospel music,music_query,music_query,0.18562415
+tell name music,music_query,music_query,0.16516678
+music traking,music_query,music_query,0.09589655
+shuffle playlist,music_settings,music_query,0.12584345
+repeat song end,music_settings,play_music,0.20333706
+cut song music,music_settings,music_query,0.18695803
+repeat previous song,music_settings,music_query,0.18775386
+please repeat music akon,music_settings,play_music,0.21489862
+repeat song,music_settings,music_query,0.13500609
+repeat song ten time,music_settings,play_music,0.23045444
+add newscast time daily schedule,news_query,recommendation_events,0.12250787
+city affected earthquake,news_query,qa_factoid,0.10614314
+head line today news,news_query,qa_factoid,0.09784837
+seattle city council homelessness,news_query,qa_factoid,0.099036515
+find news clean last six hour,news_query,iot_hue_lightoff,0.08627652
+latest headline news newsource,news_query,recommendation_events,0.12572017
+could please find latest news source usually,news_query,play_radio,0.1062743
+please keep tab presidential debate going,news_query,recommendation_events,0.12639908
+whats happening around world,news_query,recommendation_events,0.12173712
+want know everything break dam breaking california,news_query,recommendation_events,0.12506472
+latest news obamacare,news_query,calendar_remove,0.11491307
+show news migration,news_query,recommendation_events,0.105029956
+find new trump article fox news,news_query,recommendation_events,0.1270101
+whats latest news xinhua,news_query,recommendation_events,0.12636684
+find info car,news_query,recommendation_events,0.108411424
+show news cnn,news_query,recommendation_events,0.10476213
+current state brexit negotiation,news_query,play_radio,0.104491495
+fast news academy award,news_query,recommendation_events,0.11830282
+want news academy award,news_query,play_audiobook,0.12268877
+want hear audiobook,play_audiobook,datetime_query,0.10815711
+pause resume,play_audiobook,play_game,0.07144798
+resume audio book karl pilkington,play_audiobook,play_audiobook,0.15573214
+book please,play_audiobook,general_quirky,0.061785024
+start playing american god last stopped,play_audiobook,recommendation_events,0.1252069
+play last session joes book,play_audiobook,play_audiobook,0.142034
+open audio book history rome,play_audiobook,play_audiobook,0.11794292
+start audiobook time traveller,play_audiobook,play_radio,0.10342427
+resume animal farm,play_audiobook,qa_factoid,0.10912113
+play file,play_audiobook,play_game,0.07117783
+audio,play_audiobook,general_quirky,0.027470615
+start last session joes book,play_audiobook,recommendation_events,0.12171268
+play point audiobook,play_audiobook,qa_factoid,0.10292667
+resume audiobook paused last,play_audiobook,calendar_remove,0.13203898
+resume last kingdom,play_audiobook,qa_factoid,0.109563716
+end pause audio book history rome,play_audiobook,play_audiobook,0.1595821
+want finish listening book one thousand nine hundred eighty four left,play_audiobook,play_audiobook,0.12753844
+keep reading,play_audiobook,general_quirky,0.06678902
+play favorite audio book tarzan,play_audiobook,play_radio,0.110841416
+play game temple run,play_game,play_game,0.15125713
+want play solitare,play_game,datetime_query,0.108642735
+play twenty question,play_game,datetime_query,0.108424805
+give company playing football,play_game,qa_factoid,0.10362359
+game play phone,play_game,datetime_query,0.10852101
+let play,play_game,music_query,0.08235874
+play tennis,play_game,datetime_query,0.07585359
+let play poker,play_game,play_game,0.15702191
+anyone tennis,play_game,general_quirky,0.05965337
+play pong,play_game,play_game,0.07739653
+play solitaire,play_game,play_game,0.08076607
+play nfs high speed,play_game,play_radio,0.10190067
+play game hangman,play_game,play_game,0.11720608
+want play monopoly,play_game,play_game,0.15723568
+bring papa pear saga,play_game,play_game,0.14687033
+play checker,play_game,datetime_query,0.08110885
+fight street fighter,play_game,recommendation_events,0.11222159
+paper scissors stone,play_game,qa_factoid,0.11320373
+start poker game,play_game,play_game,0.1551756
+play music liked,play_music,play_music,0.20949607
+would like hear theme song,play_music,play_music,0.1980266
+play list favorite,play_music,alarm_query,0.17370014
+put poker face lady gaga next play queue,play_music,play_music,0.19715925
+turn tune,play_music,general_quirky,0.06771041
+rock,play_music,general_repeat,0.02855984
+play jumper third eye blind,play_music,cooking_recipe,0.10419267
+play music playlist,play_music,music_query,0.1880618
+please turn music,play_music,general_repeat,0.15120482
+play rap playlist,play_music,play_music,0.21096598
+song play atmosphere,play_music,play_music,0.18047492
+play true love next,play_music,play_game,0.16233222
+play hip hop song,play_music,play_music,0.22062905
+hey play crazy britney spear,play_music,play_radio,0.110118695
+play marvin gaye want,play_music,cooking_recipe,0.10223624
+play tonic,play_music,play_game,0.077794254
+play jingle bell next,play_music,play_music,0.15724048
+open jazz,play_music,music_query,0.10086764
+play third day,play_music,datetime_query,0.11056946
+play fishing podcasts favorited,play_podcasts,social_query,0.097077884
+play podcast philadelphia eagle content,play_podcasts,social_query,0.09726187
+play new podcast npr,play_podcasts,social_query,0.10456612
+keep playing episode order,play_podcasts,qa_stock,0.08249869
+play next episode,play_podcasts,social_query,0.08247393
+play play list,play_podcasts,general_confirm,0.10314456
+play favorite listed podcasts starting first one,play_podcasts,recommendation_locations,0.11513046
+play previous episode,play_podcasts,social_query,0.089167334
+play favourite podcasts,play_podcasts,social_query,0.09685087
+get next episode,play_podcasts,qa_stock,0.081531025
+please start next podcast episode,play_podcasts,qa_stock,0.08263552
+please play next episode podcast,play_podcasts,qa_stock,0.08272451
+show podcasts,play_podcasts,social_query,0.075519465
+play back december,play_podcasts,qa_factoid,0.110147625
+please download podcast file available internet play,play_podcasts,social_query,0.10829629
+skip episode,play_podcasts,social_query,0.06996359
+skip one,play_podcasts,general_quirky,0.058481626
+top played podcasts,play_podcasts,qa_stock,0.07992075
+back previous episode podcast,play_podcasts,email_sendemail,0.10519156
+play radia,play_radio,datetime_query,0.083751224
+play nine hundred seventy one,play_radio,play_radio,0.10648419
+play radio,play_radio,datetime_query,0.08627842
+turn local radio,play_radio,qa_factoid,0.09466038
+please turn sean hannity show,play_radio,cooking_recipe,0.10295618
+play national public radio,play_radio,play_radio,0.104993716
+play one thousand thirty seven,play_radio,play_game,0.10967821
+show upcoming programme one hundred five point one,play_radio,play_audiobook,0.15599032
+load sirius play rock roll show,play_radio,play_game,0.12004952
+tune nearest english station,play_radio,play_audiobook,0.13761896
+please play song kid,play_radio,play_music,0.22770911
+find joel osteens broadcast sirius,play_radio,play_radio,0.10885436
+please local sport talk show radio,play_radio,play_radio,0.11154847
+play alex jones radio,play_radio,recommendation_events,0.12026882
+play radio javan,play_radio,qa_factoid,0.107285336
+press play radio,play_radio,datetime_query,0.10981906
+play rock station pandora,play_radio,play_game,0.116043545
+play music radio,play_radio,play_game,0.15699296
+play radio channel trance music,play_radio,play_music,0.20297658
+current exchange rate china,qa_currency,social_post,0.08436024
+five dollar many rupies,qa_currency,social_query,0.11025869
+much dollar american worth yen,qa_currency,email_sendemail,0.108470716
+convert euro dollar,qa_currency,social_post,0.08507063
+much ten dollar euro,qa_currency,qa_stock,0.08254301
+much,qa_currency,general_quirky,0.027277157
+whats value euro relative nzd,qa_currency,qa_stock,0.08176638
+exchange rate euro dollar,qa_currency,email_sendemail,0.10969128
+much money would need thousand peso,qa_currency,social_query,0.11313394
+,qa_currency,lists_query,0.024718575
+ten dollar many canadian dollar,qa_currency,email_sendemail,0.106748804
+much dollar worth canada,qa_currency,social_post,0.085096486
+exchange rate canada,qa_currency,social_post,0.09146192
+much indian rupee per today,qa_currency,calendar_remove,0.1243474
+many get one dollar,qa_currency,qa_stock,0.08333263
+give exchange rate dollar euro,qa_currency,social_post,0.10480878
+much australian dollar one buy one pound sterling,qa_currency,social_post,0.10057433
+pound badly euro,qa_currency,qa_stock,0.08140906
+exchange rate money united state switzerland,qa_currency,calendar_remove,0.11507308
+please define forensic,qa_definition,music_query,0.18427122
+tell origin word evolution,qa_definition,play_music,0.21848324
+whats definition diverse,qa_definition,play_music,0.18634494
+love,qa_definition,general_quirky,0.027605321
+trebuchet,qa_definition,general_quirky,0.027626216
+know statue liberty,qa_definition,play_music,0.17256421
+google definition,qa_definition,general_repeat,0.10785112
+define economics,qa_definition,music_query,0.10431881
+stand,qa_definition,general_quirky,0.027626216
+meaning word,qa_definition,general_repeat,0.10292894
+please tell definition home,qa_definition,music_query,0.19533662
+would define car,qa_definition,music_query,0.18430145
+look animal give definition,qa_definition,play_music,0.202906
+describe rotor,qa_definition,music_query,0.09510929
+define moon,qa_definition,music_query,0.10431881
+define flabbergasted,qa_definition,music_query,0.10431881
+find meaning promise,qa_definition,play_game,0.14794284
+define rumplestiltskin,qa_definition,general_explain,0.11214587
+grapefruit look like,qa_definition,play_music,0.15617843
+year eiffel tower built,qa_factoid,play_radio,0.10330038
+super bowl officially start,qa_factoid,qa_factoid,0.100442566
+many month year,qa_factoid,datetime_query,0.11100574
+many page long harry potter,qa_factoid,play_audiobook,0.11015185
+cow come,qa_factoid,music_query,0.0646271
+italy,qa_factoid,general_quirky,0.027626216
+give birth date mahatma gandhi,qa_factoid,play_radio,0.10918984
+continent highest growth cotton average production,qa_factoid,cooking_recipe,0.1041666
+shakiras birthday,qa_factoid,calendar_query,0.052121792
+please tell historic fact india,qa_factoid,play_audiobook,0.14123386
+old emma watson newest boyfriend,qa_factoid,play_radio,0.106534086
+assassinated lincoln,qa_factoid,datetime_query,0.07250962
+tell indian economy touch america,qa_factoid,cooking_recipe,0.10263273
+info lisa ann please,qa_factoid,qa_factoid,0.10174699
+calculate distance boston new york,qa_factoid,play_audiobook,0.16471562
+year george clooney start acting,qa_factoid,calendar_remove,0.12712702
+tell win next presidential election,qa_factoid,recommendation_events,0.12662078
+capital new hampshire,qa_factoid,play_audiobook,0.11274887
+name capital nigeria,qa_factoid,play_game,0.12718256
+two two,qa_maths,datetime_query,0.06554699
+fifteen plus twenty,qa_maths,datetime_query,0.10652328
+divide two hundred four,qa_maths,cooking_recipe,0.101156116
+one plus one,qa_maths,play_game,0.11872047
+one divisible three,qa_maths,datetime_query,0.114844725
+convert ten inch centimeter,qa_maths,cooking_recipe,0.10230264
+answer math question,qa_maths,datetime_query,0.11273843
+three time two equal six,qa_maths,play_music,0.22795597
+many inch make one foot,qa_maths,cooking_recipe,0.10243937
+square root four,qa_maths,datetime_query,0.11103444
+add thirteen plus five plus nine,qa_maths,cooking_recipe,0.104185954
+twenty percent one hundred twenty,qa_maths,cooking_recipe,0.10259144
+five divided one,qa_maths,play_game,0.15520689
+sum,qa_maths,general_quirky,0.028199729
+stock price target,qa_stock,email_sendemail,0.10360098
+fill stock symbol,qa_stock,qa_stock,0.08075789
+price stock,qa_stock,social_post,0.07266334
+google stock price,qa_stock,qa_stock,0.08024311
+shell stock today,qa_stock,qa_stock,0.08116368
+stock price gss energy,qa_stock,social_post,0.1025892
+list stock apple right,qa_stock,email_query,0.08297258
+stock price sprint,qa_stock,social_post,0.0979246
+value apple,qa_stock,email_querycontact,0.051575188
+compare stock price nintendo sony tell one better,qa_stock,social_post,0.1059331
+much facebook stock increase last night,qa_stock,email_sendemail,0.10806007
+stock information walmart,qa_stock,social_post,0.10020914
+stock price tata,qa_stock,social_post,0.10155907
+current price jindel stock,qa_stock,social_post,0.09942725
+coca cola stock today,qa_stock,qa_stock,0.08327397
+much selling,qa_stock,general_quirky,0.058556177
+price google stock trading,qa_stock,email_sendemail,0.10900467
+starbucks stock last quarter,qa_stock,social_post,0.10402034
+much buy stock,qa_stock,email_query,0.08422751
+event coming,recommendation_events,recommendation_events,0.066940576
+let see cultural event weekend palermo neighborhood,recommendation_events,recommendation_events,0.12547606
+concert happening nearby,recommendation_events,recommendation_events,0.120813705
+type festival going town weekend,recommendation_events,recommendation_events,0.1256244
+show painting exhibition bay area,recommendation_events,recommendation_events,0.12170801
+fun thing seattle weekend,recommendation_events,calendar_remove,0.122893184
+whats going,recommendation_events,email_querycontact,0.05872668
+recommend event happening area,recommendation_events,recommendation_events,0.12618117
+event happening weekend area,recommendation_events,recommendation_events,0.124192126
+whats happening library month,recommendation_events,recommendation_events,0.12042706
+playing local theater right,recommendation_events,play_radio,0.104073994
+going festival downtown,recommendation_events,email_querycontact,0.10413983
+could list information book fair washington next week,recommendation_events,play_radio,0.10241897
+event going downtown tonight,recommendation_events,recommendation_locations,0.113489054
+yearly cultural event coming,recommendation_events,calendar_remove,0.10825104
+whats happening around town,recommendation_events,recommendation_events,0.12618145
+event suggest tonight,recommendation_events,calendar_remove,0.1148363
+whats happening town tonight,recommendation_events,recommendation_events,0.12658468
+give list circus show going city right,recommendation_events,iot_hue_lightchange,0.11938367
+please tell shop find book buy,recommendation_locations,calendar_remove,0.12688912
+closest restaurant,recommendation_locations,email_querycontact,0.06915648
+sport bar near kansa city plaza area,recommendation_locations,calendar_remove,0.13477786
+eat tonight,recommendation_locations,calendar_query,0.06249559
+looking casual restaurant dinner date,recommendation_locations,recommendation_events,0.122293524
+shopping mall shirt,recommendation_locations,news_query,0.09220337
+shop near,recommendation_locations,recommendation_events,0.064197905
+closest bar close,recommendation_locations,email_querycontact,0.098497875
+find nearest irish pub area,recommendation_locations,calendar_remove,0.12532394
+give cafe near downtown fort lauderdale,recommendation_locations,calendar_remove,0.12665324
+best place buy party supply town,recommendation_locations,calendar_remove,0.12615643
+got grab drink west chester,recommendation_locations,alarm_set,0.23381323
+closer starbucks,recommendation_locations,email_querycontact,0.07586678
+best hardware store near,recommendation_locations,calendar_remove,0.13201438
+mcdo,recommendation_locations,general_quirky,0.027424851
+recommend pub road,recommendation_locations,calendar_remove,0.1155505
+find grocery store organic section near,recommendation_locations,qa_stock,0.08382973
+chinese place benton,recommendation_locations,recommendation_events,0.11946758
+tell local shopping district,recommendation_locations,recommendation_events,0.1110356
+play movie ill like,recommendation_movies,cooking_recipe,0.10281821
+time movie shown tomorrow,recommendation_movies,play_radio,0.098421745
+new movie available today,recommendation_movies,recommendation_events,0.12418676
+suggest good genre movie came recently,recommendation_movies,play_radio,0.11089741
+please recommend movie,recommendation_movies,datetime_query,0.111075096
+highest rated movie week,recommendation_movies,cooking_recipe,0.10267633
+recommend movie,recommendation_movies,datetime_query,0.08156862
+recommend movie currently playing area,recommendation_movies,play_radio,0.1075563
+highest rated movie,recommendation_movies,datetime_query,0.11062639
+best movie watch weekend,recommendation_movies,play_radio,0.105904125
+send complaint sony quit working,social_post,email_sendemail,0.10862675
+write complaint wallmart,social_post,social_post,0.093078375
+please tweet problem facing product company,social_post,email_sendemail,0.1086569
+open gallery post video name,social_post,social_query,0.10441562
+complain amazon customer service,social_post,social_post,0.104409024
+tell comcast still hold,social_post,calendar_remove,0.12529947
+tweet insect chocolate packet,social_post,social_post,0.10457089
+post new status,social_post,social_post,0.09590121
+let send tweet,social_post,qa_stock,0.080852106
+want tweet complaint apple phone issue,social_post,email_sendemail,0.11038166
+tweet ikea costumer service following happy new klm product,social_post,email_sendemail,0.11192885
+tweet quote unquote,social_post,social_post,0.098586515
+tweet customer service good lpg service twitter account,social_post,email_sendemail,0.11185739
+comcast suck put twitter account,social_post,social_query,0.09605609
+tweet complaint nsa,social_post,email_sendemail,0.10427312
+tweet terrible service,social_post,email_sendemail,0.104106665
+hashtag loving weather post twitter,social_post,qa_stock,0.08357302
+send tweet apple battery drain fast,social_post,email_sendemail,0.11039992
+complain mcdonalds twitter burger,social_post,social_post,0.103951
+facebook live right,social_query,email_querycontact,0.09416461
+tell whats going snap chat,social_query,calendar_remove,0.13388819
+whats popular story facebook newsfeed,social_query,qa_stock,0.08354264
+many notification facebook,social_query,social_query,0.08919882
+please check trending topic twitter,social_query,qa_stock,0.083727345
+read new post feed,social_query,social_post,0.08457771
+get update kennys facebook weekend,social_query,social_query,0.09865056
+anyone get engaged give birth among online friend,social_query,social_query,0.09749442
+anyone like photo posted,social_query,social_query,0.099786624
+show post friend last hour,social_query,social_post,0.09538332
+may know trending social medium,social_query,social_query,0.08499975
+find update vickis facebook mardi gras day,social_query,recommendation_locations,0.113251776
+open social medium account,social_query,social_query,0.11125668
+happening twitter today,social_query,social_post,0.083201334
+anyone message facebook,social_query,qa_stock,0.08044556
+take popular post,social_query,qa_stock,0.081234775
+interesting stuff happened today twitter,social_query,social_post,0.10252498
+highest like facebook,social_query,social_query,0.10384526
+please call china wok order number seven,takeaway_order,email_sendemail,0.10865481
+place order pizza takeout seven,takeaway_order,email_sendemail,0.109956004
+order,takeaway_order,general_quirky,0.027127136
+order two large pizza piece hot wing domino,takeaway_order,email_sendemail,0.11158998
+order bowl chipotle takeout,takeaway_order,email_sendemail,0.10939833
+order pizza,takeaway_order,social_post,0.077902675
+place order chicken manchow soup wangs kitchen restaurant,takeaway_order,email_sendemail,0.11128987
+hey order pizza pie extra cheese,takeaway_order,email_sendemail,0.10858765
+want order food,takeaway_order,social_post,0.08548244
+call takeout,takeaway_order,social_query,0.07227623
+good chinese takeout thats open late,takeaway_order,social_query,0.103241794
+would like pickup veggie sub cookie subway,takeaway_order,recommendation_events,0.12493953
+pull menu closest mexican restaurant,takeaway_order,social_query,0.10412963
+takeout place near,takeaway_order,transport_query,0.08336088
+place order one pizza,takeaway_order,social_post,0.10571348
+find nearest chinese delivery,takeaway_order,qa_stock,0.08180911
+order pizza pizza express,takeaway_order,email_sendemail,0.10865203
+get turkey jimmy john sub set delivered five tonight,takeaway_order,recommendation_events,0.12696004
+order smoked meat platter beano,takeaway_order,social_post,0.10612548
+order pizza delivery,takeaway_query,email_sendemail,0.10541544
+ping takeaway,takeaway_query,social_query,0.07519858
+need know pizza delivers,takeaway_query,qa_stock,0.0832631
+whats exact time get food delivered place order food,takeaway_query,qa_stock,0.08286661
+long receive food,takeaway_query,calendar_remove,0.115498714
+check delivery option restaurant,takeaway_query,social_query,0.11285627
+louies take,takeaway_query,email_querycontact,0.073483504
+takeaway order,takeaway_query,social_post,0.07885957
+order domino ready,takeaway_query,social_post,0.10263456
+offer home delivery order,takeaway_query,email_sendemail,0.1086021
+provide takeaway,takeaway_query,social_query,0.07565633
+restaurant order status,takeaway_query,social_post,0.097212635
+takeaway arriving,takeaway_query,email_querycontact,0.064743616
+find kfc delivers please,takeaway_query,social_query,0.112439536
+deliver home,takeaway_query,email_querycontact,0.06824391
+please see chili delivery,takeaway_query,social_query,0.09409504
+status order,takeaway_query,transport_query,0.06931957
+please see restaurant chili delivery option,takeaway_query,social_query,0.09216754
+delivery,takeaway_query,general_quirky,0.027282879
+book train ticket oregon,transport_query,email_sendemail,0.10849943
+navigation search,transport_query,general_quirky,0.0697101
+time train leave philadelphia,transport_query,social_post,0.08575245
+please let know time train northern rail,transport_query,qa_stock,0.0835295
+direction please,transport_query,email_querycontact,0.06524881
+far away nearest rest stop,transport_query,iot_hue_lightchange,0.11368595
+train time today,transport_query,social_post,0.10000003
+much long northern rail arrives king cross station,transport_query,recommendation_events,0.11711869
+show train schedule metropolitan opera house,transport_query,email_sendemail,0.10955529
+get route los angle,transport_query,recommendation_locations,0.114722975
+direction local train station,transport_query,email_sendemail,0.10782981
+train schedule denver,transport_query,social_post,0.09981326
+long take get chicago train,transport_query,email_sendemail,0.110243574
+leave office,transport_query,calendar_query,0.06278586
+train coming,transport_query,social_post,0.07178143
+much time train,transport_query,qa_stock,0.08141897
+find nearest train station,transport_query,qa_stock,0.08261021
+train leaving,transport_query,social_post,0.066561066
+get nearest train station,transport_query,social_post,0.08209388
+request driver uber five minute,transport_taxi,social_post,0.09958902
+order uber ride please,transport_taxi,email_sendemail,0.10981123
+call yellow cab,transport_taxi,qa_stock,0.08050847
+find uber get airport,transport_taxi,social_post,0.09325052
+book taxi castle street airport,transport_taxi,email_sendemail,0.10818636
+call taxi,transport_taxi,qa_stock,0.07083457
+book taxi,transport_taxi,social_post,0.076112196
+book uber pick outside long island bar right,transport_taxi,email_sendemail,0.111543804
+call taxi pick work,transport_taxi,email_sendemail,0.105737366
+find uber driver available tonight ten,transport_taxi,email_sendemail,0.10711099
+book uber,transport_taxi,social_post,0.07512023
+schedule uber twenty minute tesco fifth street,transport_taxi,email_sendemail,0.10973138
+get taxi airport right,transport_taxi,social_post,0.09935811
+taxi pick,transport_taxi,takeaway_query,0.068248235
+book uber tomorrow night six,transport_taxi,email_sendemail,0.10845659
+book uber taxi carmen drive,transport_taxi,email_sendemail,0.11013422
+uber,transport_taxi,general_quirky,0.026684772
+book taxi start,transport_taxi,social_post,0.10132164
+book train ticket chicago tomorrow morning ten,transport_ticket,email_sendemail,0.11120217
+find train arrival time book,transport_ticket,social_post,0.09325145
+google train ticket washington,transport_ticket,social_post,0.10374845
+book ticket paris train,transport_ticket,email_sendemail,0.109501585
+book train ticket,transport_ticket,email_sendemail,0.10364989
+book train ticket canada evening,transport_ticket,email_sendemail,0.10977033
+book train leaving penn station tomorrow travelling city two hundred mile away,transport_ticket,email_sendemail,0.111948654
+get two train ticket dallas arriving dark,transport_ticket,email_sendemail,0.11143602
+book pay train ticket denver saturday,transport_ticket,email_sendemail,0.11037892
+please book train ticket london manchester,transport_ticket,email_sendemail,0.10768224
+google need one train ticket new york book,transport_ticket,qa_stock,0.08338529
+need buy train ticket,transport_ticket,qa_stock,0.081662506
+book ticket irctc website sbc mdu may two stored passenger list,transport_ticket,iot_hue_lightchange,0.10887749
+google search booking train ticket,transport_ticket,qa_stock,0.0825986
+please purchase amtrak ticket la vega nevada lakeland florida leaving first april,transport_ticket,calendar_remove,0.118845485
+book next train ticket chennai,transport_ticket,email_sendemail,0.110058226
+find train ticket boston,transport_ticket,email_sendemail,0.107171476
+get ride commuter train,transport_ticket,email_sendemail,0.10622734
+open irctc application book ticket,transport_ticket,social_query,0.100029305
+possible drive ohio,transport_traffic,play_game,0.13442823
+traffic city,transport_traffic,transport_traffic,0.072390646
+current traffic,transport_traffic,recommendation_events,0.07233963
+traffic,transport_traffic,general_quirky,0.029220002
+delay commute,transport_traffic,datetime_query,0.072376505
+traffic condition outside office,transport_traffic,recommendation_events,0.12379649
+jodhpur traffic level low,transport_traffic,recommendation_events,0.12180899
+outside traffic status please,transport_traffic,calendar_remove,0.1241832
+show current traffic nearby,transport_traffic,recommendation_events,0.12596251
+give information traffic near location please,transport_traffic,recommendation_events,0.12660171
+bad traffic commute,transport_traffic,recommendation_events,0.120580666
+much traffic atlanta georgia usually,transport_traffic,play_radio,0.11133417
+traffic like right telegraph,transport_traffic,transport_traffic,0.12406282
+whats traffic morning,transport_traffic,calendar_remove,0.11689753
+accident normal traffic,transport_traffic,recommendation_events,0.12194124
+long take get park avenue considering current traffic,transport_traffic,email_querycontact,0.0904075
+traffic condition one hundred one,transport_traffic,play_audiobook,0.11465714
+hows traffic downtown,transport_traffic,recommendation_locations,0.10545606
+traffic highway,transport_traffic,transport_traffic,0.07197715
+bring umbrella tonight party,weather_query,play_radio,0.1032219
+wear glove tonight,weather_query,play_audiobook,0.10900836
+rain noon,weather_query,play_game,0.071084194
+weather night,weather_query,play_game,0.0773347
+temperature higher forty tomorrow,weather_query,play_music,0.18764667
+ask weather today morning,weather_query,datetime_query,0.10503071
+summer going,weather_query,general_quirky,0.06015482
+think wear sandal wear sneaker tonight seven,weather_query,cooking_recipe,0.10438901
+show weather forecast next three three day,weather_query,play_radio,0.11137018
+sure going rain tomorrow,weather_query,cooking_recipe,0.101502456
+need snow boot afternoon,weather_query,play_game,0.1594966
+need wear sunscreen today,weather_query,play_game,0.1589132
+temperature today,weather_query,datetime_query,0.07786625
+weather next week,weather_query,datetime_query,0.10944058
+climate today,weather_query,general_quirky,0.050852824
+let know next cold front expected,weather_query,play_audiobook,0.161522
+gon need umbrella today sunset,weather_query,cooking_recipe,0.104216784
+google temperature outside,weather_query,play_game,0.121179804
+tornado warning today,weather_query,play_audiobook,0.11406107
