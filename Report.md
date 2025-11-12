@@ -1,4 +1,4 @@
-# Báo cáo Lab 5 - Intent Classification với Multiple Models
+# Báo cáo Lab 5 - Phân loại Văn bản với Mạng Nơ-ron Hồi quy (RNN/LSTM)
 
 ## 1) Các bước hiện thực
 
