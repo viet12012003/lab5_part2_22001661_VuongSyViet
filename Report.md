@@ -98,7 +98,7 @@ python -m src.evaluate
 #### 3.2.3. LSTM (Pre-trained)
 - **Hiệu suất**:
   - F1-Score: 0.578 (thấp hơn mong đợi)
-  - Test Loss: 2.214 (cao nhất trong các mô hình)
+  - Test Loss: 2.214 (khá cao)
 - **Nguyên nhân có thể**:
   - Chưa tối ưu được hyperparameters
   - Cần thêm thời gian huấn luyện
