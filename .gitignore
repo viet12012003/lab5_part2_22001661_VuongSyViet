@@ -1,0 +1,9 @@
+__pycache__/
+outputs/models/
+
+outputs/results/lstm_(pre-trained)_predictions.csv
+outputs/results/lstm_(scratch)_predictions.csv
+outputs/results/tf-idf_+_logistic_regression_predictions.csv
+
+data/*
+!data/description.md
